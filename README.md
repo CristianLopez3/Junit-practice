@@ -1,20 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+# JUnit 5
 
-    <groupId>org.example</groupId>
-    <artifactId>junit-5-basis</artifactId>
-    <version>1.0-SNAPSHOT</version>
+Testing Framework for Java.
 
-    <properties>
+
+>[!TIP]
+> Assertions are the most important part when you make testing with JUnit.
+
+### Assertions
+Below i'm going to add the assertions methods that i consider most important:
+* assertEquals(expected, actual);
+* 
+
+### Annotations
+Below i'm going to add the annotations that i consider most important:
+* @Test
+* 
+
+
+### Dependencies to Add
+```xml
+   <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.jupiter.version>5.4.0</junit.jupiter.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -29,5 +39,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-</project>
+```
