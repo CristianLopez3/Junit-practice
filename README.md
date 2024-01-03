@@ -3,16 +3,19 @@
 Testing Framework for Java.
 
 
->[!TIP]
+> [!TIP]
 > Assertions are the most important part when you make testing with JUnit.
 
 ### Assertions
 Below i'm going to add the assertions methods that i consider most important:
-* assertEquals(expected, actual);
-* 
+<a href="https://junit.org/junit5/docs/current/api/org.junit.jupiter.api/org/junit/jupiter/api/Assertions.html"> JUnit <b> Asserts Methods </b> </a>
+* assertEquals(expected, actual): Asserts that expected and actual are equal.
+* assertArrayEqual(expectedArray, actualArray): Verifies each item in the arrays are equal in the right position.
+* assertIterableEquals(expectedArray, actualArray): Verifies each item in the iterable are equal in the corresponding positions.
+* assertThrows(expectedException, actualException (lambda)): Vefiries if the expected exception is equal to the actual exception between a lambda functions.
 
 ### Annotations
-Below i'm going to add the annotations that i consider most important:
+Below I'm going to add the annotations that i consider most important:
 * @Test
 * 
 

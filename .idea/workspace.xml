@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3736cc9-005b-448d-8949-519a36a214a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/learn/MathUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/learn/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/learn/MathUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/learn/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/learn/MathUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,8 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.MathUtilsTest.test.executor": "Run",
+    "JUnit.MathUtilsTest.testComputeCircleArea.executor": "Run",
+    "JUnit.MathUtilsTest.testDivide.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -58,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MathUtilsTest.test">
+  <component name="RunManager" selected="JUnit.MathUtilsTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.learn.Main" />
       <module name="junit-5-basis" />
@@ -68,6 +70,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-5-basis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.learn" />
+      <option name="MAIN_CLASS_NAME" value="org.learn.MathUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,8 +105,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MathUtilsTest.testComputeCircleArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-5-basis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.learn" />
+      <option name="MAIN_CLASS_NAME" value="org.learn.MathUtilsTest" />
+      <option name="METHOD_NAME" value="testComputeCircleArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest.testDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-5-basis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.learn" />
+      <option name="MAIN_CLASS_NAME" value="org.learn.MathUtilsTest" />
+      <option name="METHOD_NAME" value="testDivide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathUtilsTest" />
+        <item itemvalue="JUnit.MathUtilsTest.testDivide" />
+        <item itemvalue="JUnit.MathUtilsTest.testComputeCircleArea" />
         <item itemvalue="JUnit.MathUtilsTest.test" />
         <item itemvalue="Application.Main" />
       </list>
@@ -111,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704157048437</updated>
       <workItem from="1704157049115" duration="7000" />
-      <workItem from="1704158279320" duration="1117000" />
+      <workItem from="1704158279320" duration="1825000" />
+      <workItem from="1704293332212" duration="2657000" />
     </task>
     <servers />
   </component>
