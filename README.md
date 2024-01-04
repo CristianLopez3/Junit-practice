@@ -17,8 +17,20 @@ Below i'm going to add the assertions methods that i consider most important:
 ### Annotations
 Below I'm going to add the annotations that i consider most important:
 * @Test
-* 
 
+### Life Cycle
+The instance is: 
+1. Created.
+2. Managed.
+3. Destroyed.
+>[!IMPORTANT]
+>Every process should be independent for others process, It meaning that the test class shouldn't be have an specific order to run its methods.
+#### Life Cycle Hooks
+Below you can see the hooks for the life cycle in a test:
+* @BeforeAll
+* @AfterAll
+* @BeforeEach
+* AfterEach
 
 ### Dependencies to Add
 ```xml
