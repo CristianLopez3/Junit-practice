@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3736cc9-005b-448d-8949-519a36a214a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/learn/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/learn/MathUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MathUtilsTest.testComputeCircleArea">
+  <component name="RunManager" selected="JUnit.MathUtilsTest.testMultiply">
     <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-5-basis" />
       <extension name="coverage">
@@ -142,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MathUtilsTest.testComputeCircleArea" />
-        <item itemvalue="JUnit.MathUtilsTest" />
         <item itemvalue="JUnit.MathUtilsTest.testMultiply" />
+        <item itemvalue="JUnit.MathUtilsTest" />
+        <item itemvalue="JUnit.MathUtilsTest.testComputeCircleArea" />
         <item itemvalue="JUnit.MathUtilsTest.testDivide" />
         <item itemvalue="JUnit.MathUtilsTest.test" />
       </list>
@@ -168,7 +167,7 @@
       <workItem from="1704157049115" duration="7000" />
       <workItem from="1704158279320" duration="1825000" />
       <workItem from="1704293332212" duration="3407000" />
-      <workItem from="1704378850998" duration="5184000" />
+      <workItem from="1704378850998" duration="5943000" />
     </task>
     <servers />
   </component>
