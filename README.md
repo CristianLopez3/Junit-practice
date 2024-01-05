@@ -12,12 +12,16 @@ Below i'm going to add the assertions methods that i consider most important:
 * assertEquals(expected, actual): Asserts that expected and actual are equal.
 * assertArrayEqual(expectedArray, actualArray): Verifies each item in the arrays are equal in the right position.
 * assertIterableEquals(expectedArray, actualArray): Verifies each item in the iterable are equal in the corresponding positions.
-* assertThrows(expectedException, actualException (lambda)): Vefiries if the expected exception is equal to the actual exception between a lambda functions.
+* assertThrows(expectedException, actualException (lambda)): Verifies if the expected exception is equal to the actual exception between a lambda functions.
+* assertAll((a bunch of lambdas)): use it when you need to run a bunch of assertions.
 
 ### Annotations
 Below I'm going to add the annotations that i consider most important:
 * @Test
-
+* Scale my test
+    - @DisplayName
+    - @Disabled
+* @Nested: Allow us create nested code in a class
 ### Life Cycle
 The instance is: 
 1. Created.
@@ -25,12 +29,13 @@ The instance is:
 3. Destroyed.
 >[!IMPORTANT]
 >Every process should be independent for others process, It meaning that the test class shouldn't be have an specific order to run its methods.
+
 #### Life Cycle Hooks
 Below you can see the hooks for the life cycle in a test:
 * @BeforeAll
 * @AfterAll
 * @BeforeEach
-* AfterEach
+* @AfterEach
 
 ### Dependencies to Add
 ```xml
