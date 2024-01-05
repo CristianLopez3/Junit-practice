@@ -60,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MathUtilsTest">
+  <component name="RunManager" selected="JUnit.MathUtilsTest.testComputeCircleArea">
     <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-5-basis" />
       <extension name="coverage">
@@ -142,10 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathUtilsTest.testComputeCircleArea" />
         <item itemvalue="JUnit.MathUtilsTest" />
         <item itemvalue="JUnit.MathUtilsTest.testMultiply" />
         <item itemvalue="JUnit.MathUtilsTest.testDivide" />
-        <item itemvalue="JUnit.MathUtilsTest.testComputeCircleArea" />
         <item itemvalue="JUnit.MathUtilsTest.test" />
       </list>
     </recent_temporary>
@@ -168,7 +168,7 @@
       <workItem from="1704157049115" duration="7000" />
       <workItem from="1704158279320" duration="1825000" />
       <workItem from="1704293332212" duration="3407000" />
-      <workItem from="1704378850998" duration="4038000" />
+      <workItem from="1704378850998" duration="5184000" />
     </task>
     <servers />
   </component>

@@ -21,7 +21,8 @@ Below I'm going to add the annotations that i consider most important:
 * Scale my test
     - @DisplayName
     - @Disabled
-* @Nested: Allow us create nested code in a class
+* @Nested: Allow us created nested code in a class
+* @RepeatedTest
 ### Life Cycle
 The instance is: 
 1. Created.

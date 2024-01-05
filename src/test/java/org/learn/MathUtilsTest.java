@@ -33,7 +33,7 @@ public class MathUtilsTest {
         void testAddNegative(){
             int expected = -2;
             int actual = mathUtils.add(-1, -1);
-            assertEquals(expected, actual, "Should return  the right sum");
+            assertEquals(expected, actual, ()  -> "Should return  the right sum");
         }
 
     }
@@ -64,9 +64,9 @@ public class MathUtilsTest {
     }
 
 
-    @Test
-    @DisplayName("Testing compute circle area method")
-    void testComputeCircleArea(){
+
+    @RepeatedTest(3)
+    void testComputeCircleArea(RepetitionInfo repetitionInfo){
         assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), "The compute circle area should find the area of the radios giving.");
     }
 
